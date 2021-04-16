@@ -1,0 +1,737 @@
+#wcep-shipment-label-metabox .inside {
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+}
+#wcep-shipment-label-metabox .wc-order-data-row {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 1.5em 2em;
+    background: #f8f8f8;
+    line-height: 2em;
+    text-align: right;
+}
+#wcep-shipment-label-metabox .wc-order-data-row::after,
+#wcep-shipment-label-metabox .wc-order-data-row::before {
+    content: " ";
+    display: table;
+}
+#wcep-shipment-label-metabox .wc-order-data-row::after {
+    clear: both;
+}
+#wcep-shipment-label-metabox .wc-order-data-row p {
+    margin: 0;
+    line-height: 2em;
+}
+#wcep-shipment-label-metabox .wc-order-data-row .wc-used-coupons {
+    text-align: left;
+}
+#wcep-shipment-label-metabox .wc-order-data-row .wc-used-coupons .tips {
+    display: inline-block;
+}
+#wcep-shipment-label-metabox .wc-used-coupons {
+    float: left;
+    width: 50%;
+}
+#wcep-shipment-label-metabox .wc-order-totals {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+#wcep-shipment-label-metabox .wc-order-totals .amount {
+    font-weight: 700;
+}
+#wcep-shipment-label-metabox .wc-order-totals .label {
+    vertical-align: top;
+}
+#wcep-shipment-label-metabox .wc-order-totals .total {
+    font-size: 1em !important;
+    width: 10em;
+    margin: 0 0 0 0.5em;
+    box-sizing: border-box;
+}
+#wcep-shipment-label-metabox .wc-order-totals .total input[type="text"] {
+    width: 96%;
+    float: right;
+}
+#wcep-shipment-label-metabox .wc-order-totals .refunded-total {
+    color: #a00;
+}
+#wcep-shipment-label-metabox .refund-actions {
+    margin-top: 5px;
+    padding-top: 12px;
+    border-top: 1px solid #dfdfdf;
+}
+#wcep-shipment-label-metabox .refund-actions .button {
+    float: right;
+    margin-left: 4px;
+}
+#wcep-shipment-label-metabox .refund-actions .cancel-action {
+    float: left;
+    margin-left: 0;
+}
+#wcep-shipment-label-metabox .add_meta {
+    margin-left: 0 !important;
+}
+#wcep-shipment-label-metabox h3 small {
+    color: #999;
+}
+#wcep-shipment-label-metabox .amount {
+    white-space: nowrap;
+}
+#wcep-shipment-label-metabox .add-items .description {
+    margin-right: 10px;
+}
+#wcep-shipment-label-metabox .add-items .button {
+    float: left;
+    margin-right: 0.25em;
+}
+#wcep-shipment-label-metabox .add-items .button-primary {
+    float: none;
+    margin-right: 0;
+}
+#wcep-shipment-label-metabox .inside {
+    display: block !important;
+}
+#wcep-shipment-label-metabox .handlediv,
+#wcep-shipment-label-metabox .hndle {
+    display: none;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper {
+    margin: 0;
+    overflow-x: auto;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items {
+    width: 100%;
+    background: #fff;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items thead th {
+    text-align: left;
+    padding: 1em;
+    font-weight: 400;
+    color: #999;
+    background: #f8f8f8;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items thead th.sortable {
+    cursor: pointer;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items thead th:last-child {
+    padding-right: 2em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items thead th:first-child {
+    padding-left: 2em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items thead th .wc-arrow {
+    float: right;
+    position: relative;
+    margin-right: -1em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody th,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td {
+    padding: 1.5em 1em 1em;
+    text-align: left;
+    line-height: 1.5em;
+    vertical-align: top;
+    border-bottom: 1px solid #f8f8f8;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody th textarea,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td textarea {
+    width: 100%;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody th select,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td select {
+    width: 50%;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody th input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody th textarea,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td textarea {
+    font-size: 14px;
+    padding: 4px;
+    color: #555;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody th:last-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td:last-child {
+    padding-right: 2em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody th:first-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td:first-child {
+    padding-left: 2em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody tr:last-child td {
+    border-bottom: 1px solid #dfdfdf;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody tr:first-child td {
+    border-top: 8px solid #f8f8f8;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tbody#order_line_items tr:first-child td {
+    border-top: none;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.thumb {
+    text-align: left;
+    width: 38px;
+    padding-bottom: 1.5em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.thumb .wc-order-item-thumbnail {
+    width: 38px;
+    height: 38px;
+    border: 2px solid #e8e8e8;
+    background: #f8f8f8;
+    color: #ccc;
+    position: relative;
+    font-size: 21px;
+    display: block;
+    text-align: center;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.thumb .wc-order-item-thumbnail::before {
+    font-family: Dashicons;
+    
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    width: 38px;
+    line-height: 38px;
+    display: block;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.thumb .wc-order-item-thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.name .wc-order-item-sku,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.name .wc-order-item-variation {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.92em !important;
+    color: #888;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item {
+    min-width: 200px;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .center,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .variation-id {
+    text-align: center;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class {
+    text-align: right;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class label {
+    white-space: nowrap;
+    color: #999;
+    font-size: 0.833em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost label input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost label input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost label input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax label input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity label input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax label input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class label input {
+    display: inline;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class input {
+    width: 70px;
+    vertical-align: middle;
+    text-align: right;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost select,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost select,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost select,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax select,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity select,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax select,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class select {
+    width: 85px;
+    height: 26px;
+    vertical-align: middle;
+    font-size: 1em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+    margin: 1px 0;
+    min-width: 80px;
+    overflow: hidden;
+    line-height: 1em;
+    text-align: right;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input div.input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input div.input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input div.input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input div.input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input div.input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input div.input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input div.input {
+    width: 100%;
+    box-sizing: border-box;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input div.input label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input div.input label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input div.input label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input div.input label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input div.input label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input div.input label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input div.input label {
+    font-size: 0.75em;
+    padding: 4px 6px 0;
+    color: #555;
+    display: block;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input div.input input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input div.input input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input div.input input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input div.input input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input div.input input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input div.input input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input div.input input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0 6px 4px;
+    color: #555;
+    background: 0 0;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input div.input input::-webkit-input-placeholder,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input div.input input::-webkit-input-placeholder,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input div.input input::-webkit-input-placeholder,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input div.input input::-webkit-input-placeholder,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input div.input input::-webkit-input-placeholder,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input div.input input::-webkit-input-placeholder,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input div.input input::-webkit-input-placeholder {
+    color: #ddd;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input div.input:first-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input div.input:first-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input div.input:first-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input div.input:first-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input div.input:first-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input div.input:first-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input div.input:first-child {
+    border-bottom: 1px dashed #ddd;
+    background: #fff;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input div.input:first-child label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input div.input:first-child label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input div.input:first-child label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input div.input:first-child label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input div.input:first-child label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input div.input:first-child label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input div.input:first-child label {
+    color: #ccc;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .split-input div.input:first-child input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .split-input div.input:first-child input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .split-input div.input:first-child input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .split-input div.input:first-child input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .split-input div.input:first-child input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .split-input div.input:first-child input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .split-input div.input:first-child input {
+    color: #ccc;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .view,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .view,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .view,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .view,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .view,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .view,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .view {
+    white-space: nowrap;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .edit,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .edit,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .edit,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .edit,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .edit,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .edit,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .edit {
+    text-align: left;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost del,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost del,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost del,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax del,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity del,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax del,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class del,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class small.times {
+    font-size: 0.92em !important;
+    color: #888;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-taxes,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-refund-fields,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-taxes {
+    margin: 0;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-refund-fields label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-taxes label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-refund-fields label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-taxes label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-refund-fields label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-taxes label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-refund-fields label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-taxes label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-refund-fields label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-taxes label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-refund-fields label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-taxes label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-refund-fields label,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-taxes label {
+    display: block;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax .wc-order-item-discount,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class .wc-order-item-discount {
+    display: block;
+    margin-top: 0.5em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .cost small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .item_cost small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_cost small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .line_tax small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax small.times,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .tax_class small.times {
+    margin-right: 0.25em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity {
+    text-align: center;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .quantity input {
+    text-align: center;
+    width: 50px;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items span.subtotal {
+    opacity: 0.5;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.tax_class,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items th.tax_class {
+    text-align: left;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .calculated {
+    border-color: #ae8ca2;
+    border-style: dotted;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta {
+    width: 100%;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta {
+    margin: 0.5em 0 0;
+    font-size: 0.92em !important;
+    color: #888;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr th,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr th {
+    border: 0;
+    padding: 0 4px 0.5em 0;
+    line-height: 1.5em;
+    width: 20%;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr td {
+    padding: 0 4px 0.5em 0;
+    border: 0;
+    line-height: 1.5em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td input,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr td input {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    border-bottom: 0;
+    box-shadow: none;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td textarea,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr td textarea {
+    width: 100%;
+    height: 4em;
+    margin: 0;
+    box-shadow: none;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td input:focus + textarea,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr td input:focus + textarea {
+    border-top-color: #999;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td p,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr td p {
+    margin: 0 0 0.5em;
+    line-height: 1.5em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td p:last-child,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta tr td p:last-child {
+    margin: 0;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items .refund_by {
+    border-bottom: 1px dotted #999;
+}
+
+
+
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tr.refund .thumb div::before {
+    font-family: WooCommerce;
+    
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    color: #ccc;
+}
+
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tr.shipping .thumb div::before {
+    font-family: WooCommerce;
+    
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    color: #ccc;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tr.shipping .shipping_method,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items tr.shipping .shipping_method_name {
+    width: 100%;
+    margin: 0 0 0.5em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items th.line_tax {
+    white-space: nowrap;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.line_tax .delete-order-tax,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items th.line_tax .delete-order-tax {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    float: right;
+    font-size: 14px;
+    visibility: hidden;
+    margin: 3px -18px 0 0;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items td.line_tax .delete-order-tax::before,
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items th.line_tax .delete-order-tax::before {
+    font-family: Dashicons;
+    
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    color: #999;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items small.refunded {
+    display: block;
+    color: #a00;
+    white-space: nowrap;
+    margin-top: 0.5em;
+}
+#wcep-shipment-label-metabox .woocommerce_order_items_wrapper table.woocommerce_order_items small.refunded::before {
+    font-family: Dashicons;
+    
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    line-height: 1em;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item {
+    padding-left: 0;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions {
+    width: 0;
+    text-align: right;
+    padding-left: 0;
+    vertical-align: middle;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions a {
+    color: #ccc;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 0 0.5em;
+    margin: 0 0 0 12px;
+    vertical-align: middle;
+    text-decoration: none;
+    line-height: 16px;
+    width: 16px;
+    overflow: hidden;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions a::before {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions a::before {
+    color: #999;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions a:first-child {
+    margin-left: 0;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions .wcep-edit-line-item::before {
+    font-family: Dashicons;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    position: relative;
+}
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions .delete-order-item::before,
+#wcep-shipment-label-metabox .wc-order-edit-line-item-actions .delete_refund::before {
+    font-family: Dashicons;
+    
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    position: relative;
+}

@@ -1,0 +1,33 @@
+.dnone {
+	display: none;
+}
+
+.wcep-est-delivery-days {
+	padding: 10px;
+}
+
+.wcep-shipment-insuramce-block label {
+	cursor: pointer;
+}
+
+.customer-shipping-address {
+	width: 49%;
+	float: right;
+}
+
+.other-details {
+	float: left;
+	width: 49%;
+}
+
+.wcep-pickup-other-data {
+	width: 100%;
+}
+
+label {
+	cursor: pointer;
+}
+
+.select2-container {
+	z-index: 9999;
+}

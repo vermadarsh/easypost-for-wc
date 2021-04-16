@@ -1,0 +1,284 @@
+.wcep-shipment-carrier {
+	width: 100%;
+}
+
+.non-clickable {
+	pointer-events: none;
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.wcep-products-list-in-notification {
+	list-style-type: none;
+}
+
+.wcep_notification_popup {
+	display: inline-block;
+	-webkit-transition: .5s all;
+	-o-transition: .5s all;
+	transition: .5s all;
+	position: fixed;
+	right: -100%;
+	top: 10%;
+	background-color: #FFF;
+	padding: 10px;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #B9584F;
+	color: #FFF;
+	z-index: 99999;
+	min-width: 320px;
+}
+
+.wcep_notification_popup:hover {
+	background-color: #B0483E;
+}
+
+.wcep_notification_popup.is-success {
+	background: rgba( 64, 151, 64, 0.6313725490196078 );
+}
+
+.wcep_notification_popup.is-success:hover {
+	background-color: #409740;
+}
+
+.wcep_notification_popup.is-error {
+	background: rgba( 185, 88, 79, 0.7019607843137254 );
+}
+
+.wcep_notification_popup.is-error:hover {
+	background-color: #B9584F;
+}
+
+.wcep_notification_popup.active {
+	right: 10px;
+}
+
+.wcep_notification_popup .wcep_notification_icon {
+	display: inline-block;
+	width: 35px;
+	vertical-align: top;
+	font-size: 26px;
+	padding: 5px 5px 0 0;
+	box-sizing: border-box;
+}
+
+.wcep_notification_popup .wcep_notification_message {
+	width: calc( 100% - 40px );
+	display: inline-block;
+	vertical-align: top;
+	line-height: normal;
+}
+
+.wcep_notification_popup .wcep_notification_message .title {
+	font-size: 21px;
+	margin: 0 0 5px;
+	color: #FFF;
+}
+
+.wcep_notification_popup .wcep_notification_message p {
+	font-size: 14px;
+	margin: 0 0 6px;
+	line-height: normal;
+}
+
+.wcep_notification_popup .wcep_notification_message ul {
+	margin: 0;
+}
+
+.wcep_notification_popup .wcep_notification_message ul li {
+	margin-bottom: 3px;
+}
+
+.wcep_notification_popup .wcep_notification_close {
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.wcep_notification_popup .wcep_notification_close:before {
+	content: 'x';
+	display: inline-block;
+	font-size: 18px;
+}
+
+.line_packaging_box select {
+	width: auto !important;
+}
+
+.wcep-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 0vh;
+	background-color: transparent;
+	overflow: hidden;
+	transition: background-color 0.25s ease;
+	z-index: 9999;
+}
+.wcep-modal.open {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: background-color 0.25s;
+}
+.wcep-modal.open > .content-wrapper {
+	transform: scale(1);
+}
+.wcep-modal .content-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 35%;
+	margin: 0;
+	padding: 1.5rem;
+	background-color: white;
+	border-radius: 0.3125rem;
+	box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.5);
+	transform: scale(0);
+	transition: transform 0.25s;
+	transition-delay: 0.15s;
+}
+.wcep-modal .content-wrapper .close {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	border: none;
+	background-color: transparent;
+	font-size: 1.5rem;
+	transition: 0.25s linear;
+}
+.wcep-modal .content-wrapper .close:before, .wcep-modal .content-wrapper .close:after {
+	font-family: "Dashicons";
+	position: absolute;
+	content: "\f335";
+	width: 1.25rem;
+	height: 0.125rem;
+}
+.wcep-modal .content-wrapper .close:hover:before, .wcep-modal .content-wrapper .close:hover:after {
+	background-color: tomato;
+}
+.wcep-modal .content-wrapper .modal-header {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 1.25rem;
+}
+.wcep-modal .content-wrapper .modal-header h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.wcep-modal .content-wrapper .content {
+	width: 100%;
+	position: relative;
+	max-height: 300px;
+	overflow-y: auto;
+}
+.wcep-modal .content-wrapper .modal-footer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	margin: 0;
+	padding: 1.875rem 0 0;
+}
+.wcep-modal .content-wrapper .modal-footer .action {
+	position: relative;
+	margin-left: 0.625rem;
+	padding: 0.625rem 1.25rem;
+	border: none;
+	background-color: slategray;
+	border-radius: 0.25rem;
+	color: white;
+	font-size: 0.87rem;
+	font-weight: 300;
+	overflow: hidden;
+	z-index: 1;
+}
+.wcep-modal .content-wrapper .modal-footer .action:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: width 0.25s;
+	z-index: 0;
+}
+.wcep-modal .content-wrapper .modal-footer .action:first-child {
+	background-color: #2ecc71;
+}
+.wcep-modal .content-wrapper .modal-footer .action:hover:before {
+	width: 100%;
+}
+
+.wcep-item-shipping-data {
+	width: 60%;
+}
+
+.wcep-edit-line-items-table thead tr th {
+	text-align: -webkit-match-parent;
+}
+
+.wcep-label {
+	width: 130px;
+	margin-right: 20px;
+}
+
+.wcep-labels-preview {
+	text-align: left !important;
+}
+
+.wcep-postage-labels h2,
+.wcep-return-labels h2 {
+	padding: 0 !important;
+}
+
+.labels {
+	margin-top: 15px;
+}
+
+.wcep-postage-labels {
+	margin-bottom: 15px;
+}
+
+.wcep-available-labels {
+	width: 49%;
+}
+
+.wcep-email-recipients {
+	float: left;
+	width: 49%;
+}
+
+.wcep-available-labels p {
+    margin-left: 10px;
+}
+
+#add-recipient,
+.remove-recipient {
+	margin-left: 2px !important;
+	width: 30.36px;
+}
+
+.email-recipient {
+	margin-bottom: 5px;
+}
